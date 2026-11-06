@@ -1,0 +1,74 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Packaging / build ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+
+# --- Données (à adapter) ---
+data/raw/
+data/processed/
+*.csv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# --- Résultats générés ---
+output/
+outputs/
+results/
+figures/
+reports/
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# --- Tests / couverture / typage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# --- Secrets / configuration locale ---
+.env
+.env.*
+*.key
+secrets.*
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_S
